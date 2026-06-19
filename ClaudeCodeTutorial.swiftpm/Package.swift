@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.7
 
 import PackageDescription
 import AppleProductTypes
@@ -6,7 +6,7 @@ import AppleProductTypes
 let package = Package(
     name: "ClaudeCodeTutorial",
     platforms: [
-        .iOS("17.0")
+        .iOS("16.0")
     ],
     products: [
         .iOSApplication(
